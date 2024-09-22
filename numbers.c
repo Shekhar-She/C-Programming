@@ -1,4 +1,4 @@
-//printf Hello World n times.
+//printf 1 to 100 numbers times.
 #include<stdio.h>
 void main()
 {
@@ -7,6 +7,6 @@ void main()
 	scanf("%d",&n);
 	for( i=1;i<=n;i++)
 	{
-		printf(" Bajrang Bali.....\n ");
+		printf(" %d \n ",i);
 	}
 }

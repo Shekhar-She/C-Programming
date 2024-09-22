@@ -7,6 +7,9 @@ void main()
 	scanf("%d",&n);
 	for( i=1;i<=n;i++)
 	{
-		printf(" Bajrang Bali.....\n ");
+		if(i%2==0)
+		{
+			printf("%d \n ",i);
+		}
 	}
 }
